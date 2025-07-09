@@ -4,7 +4,7 @@ A passive WPA handshaking sniffer and traffic analyzer built using a custom-conf
 
 ---
 
-## 📦 Project Overview
+## Project Overview
 
 This project configures a custom Pwnagotchi instance to:
 
@@ -16,7 +16,7 @@ This project configures a custom Pwnagotchi instance to:
 
 ---
 
-## 🛠️ Hardware Used
+## Hardware Used
 
 |           Component              |                   Description                   |
 |----------------------------------|-------------------------------------------------|
@@ -27,9 +27,9 @@ This project configures a custom Pwnagotchi instance to:
 
 ---
 
-## 🧰 Software & Configuration
+## Software & Configuration
 
-### 🔹 Pwnagotchi Version 2.6.4
+### Pwnagotchi Version 2.6.4
 
 - Based on [Pwnagotchi](https://pwnagotchi.ai/) image for Pi Zero W
 - Custom `.toml` configuration located in `nano /etc/pwnagotchi/config.toml`
