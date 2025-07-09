@@ -35,7 +35,7 @@ This project configures a custom Pwnagotchi instance to:
 - Custom `.toml` configuration located in `nano /etc/pwnagotchi/config.toml`
 
 
-### Steps follwed:
+### Steps followed:
 
 The steps to do this project are as follows
 (the work is a little derivative and can be found on any youtube tutorial):
