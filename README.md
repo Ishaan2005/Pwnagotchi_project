@@ -35,3 +35,30 @@ This project configures a custom Pwnagotchi instance to:
 - Custom `.toml` configuration located in `nano /etc/pwnagotchi/config.toml`
 
 
+### Steps follwed:
+
+The steps to do this project are as follows
+(the work is a little derivative and can be found on any youtube tutorial):
+
+1. Get the latest Pwnagotchi image(currently 2.9.5.3)by Jayfelony and 
+download it on your local machine.
+
+2. Flash the image file on a microSD card by using either of the two,
+Rpi imager or balena Etcher
+
+3. Insert the SD card into the Pwnagotchi with the 2.13 inch waveshare v4 plugged 
+onto the Rpi
+
+4. Let the Rpi boot for a while, for the first run, i would suggest to boot 
+using your laptops power USB port and the Rpi's Data port to SSH into the Rpi
+
+5. The default ip assigned to the Pwnagotchi is 10.0.0.2
+
+6. To SSH into the Pwnagotchi, you will no to change the IP Address and obviously
+the subnet of your Laptop/device.
+
+7. After SSHing into the Rpi, we would want to configure the Toml file using
+sudo nano /etc/pwnagotchi/config.toml
+(not the Defaults.toml as it will be always auto-generated on bootup).
+
+8. The next steps include giving the Pi a Wi-fi connection and Bluetooth 
