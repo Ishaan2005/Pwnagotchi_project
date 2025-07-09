@@ -18,28 +18,20 @@ This project configures a custom Pwnagotchi instance to:
 
 ## 🛠️ Hardware Used
 
-| Component                         | Description                                     |
+|           Component              |                   Description                   |
 |----------------------------------|-------------------------------------------------|
-| Raspberry Pi Zero W              | Lightweight, low-power board for Pwnagotchi    |
-| Waveshare 2.13" e-Paper Display  | Version 2, used to display Pwnagotchi face UI  |
-| microSD Card                     | At least 8GB with flashed Pwnagotchi image     |
-| Power Bank                       | Portable power supply for on-the-go operation  |
+| Raspberry Pi Zero W              |  Lightweight, low-power board for Pwnagotchi    |
+| Waveshare 2.13" e-Paper Display  |  Version 2, used to display Pwnagotchi face UI  |
+| microSD Card                     |  64GB with flashed Pwnagotchi image             |
+| Power                            | Via a 5V 3A power Adaptor and a micro USB Cable |
 
 ---
 
 ## 🧰 Software & Configuration
 
-### 🔹 Pwnagotchi Version
+### 🔹 Pwnagotchi Version 2.6.4
 
 - Based on [Pwnagotchi](https://pwnagotchi.ai/) image for Pi Zero W
-- Custom `.toml` configuration located in `/etc/pwnagotchi/config.toml`
+- Custom `.toml` configuration located in `nano /etc/pwnagotchi/config.toml`
 
-### 🔹 Key Config Changes
 
-```toml
-main.name = "IshaanBot"
-main.lang = "en"
-ui.display.enabled = true
-ui.display.type = "waveshare_v2"
-plugins.age.enabled = true
-plugins.exp.enabled = true
