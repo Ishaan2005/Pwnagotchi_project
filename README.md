@@ -27,7 +27,7 @@ This project configures a custom Pwnagotchi instance to:
 
 ---
 
-![The final Device](Screenshot 2025-04-05 200719.png)
+![The final Device](pwnagotchi.png)
 
 ## Software & Configuration
 
